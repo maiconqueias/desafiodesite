@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#B79A72;
+   
+}
+.container{
+    background-color:#B79A72;
+    color: rgb(53, 5, 5);
+   
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    background-color: rgb(75, 49, 10);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 20pt;
+}
+.article{
+    background-color: white;
+    border-radius: 10px;
+    width: 80vh;
+    margin: 40px;
+    padding: 50px;
+}
+.article > h2{
+    font-size: 23pt;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+.article > p{
+    background-color: rgba(8, 8, 8, 0.623);
+    border-radius: 10px;
+    padding: 50px;
+    color: white;
+
+}
+#article1{
+    background-image: url(https://i0.wp.com/www.hisour.com/wp-content/uploads/2017/12/Fountain-Pen.jpg?fit=960%2C640&ssl=1&resize=1280%2C720);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#article2{
+    background-image:url(https://www.diocesejoinville.com.br/restrito/img/artigos/40182b9dbfa3ab4fd3a938dc6298f249.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e3700;
+    border-radius: 10px;
+    width: 80vh;
+    height: 40vh;
+    margin: 40px;
+    padding: 50px;
+}
+.formulario> form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 40px;
+    color: white;
+    text-align: center;
+    margin: 40px;
+    border-radius: 10px;
+  
+  
+    
+}
+.formulario > form > input{
+    font-size: 15pt;
+    margin: 10px;
+}
+
+.formulario > form > #botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 40vh;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #000000;
+    color: white;
+}
+.formulario > form > label{
+    font-size: 15pt;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+   
+    text-align: center;
+    padding: 20px;
+}
+.footer > p{
+    font-size: 12pt;
+}
+.footer > #quemfez{
+    margin-top: 20px;
+    
+}
+.footer > a > img{
+    width: 50px;
+    margin-left: 20px;
+}
+.footer > a{
+    text-decoration: none;
+}
